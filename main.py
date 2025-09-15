@@ -1,4 +1,4 @@
-from stellar_physics import isothermal_wind_solutions
+from scripts.stellar_physics import isothermal_wind_solutions
 from plot_output import plot_solutions, generate_text_files
 
 if __name__ == "__main__":
@@ -18,4 +18,5 @@ if __name__ == "__main__":
     generate_text_files(calculated_solutions, Rc_val, a_val, is_normalized)
     
     # Plots the solutions
+
     plot_solutions(calculated_solutions, Rc_val, a_val, is_normalized)
