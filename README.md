@@ -35,14 +35,20 @@ $$ \Large \frac{1}{v} \frac{dv}{dr} = \frac{\frac{2a^2}{r} - \frac{GM}{r^2}}{v^2
 
 where:
 
-- **v** is the wind velocity
-- **r** is the radial distance from the center of the star
-- **G** is the gravitational constant
-- **M** is the mass of the star
-- **a** is the isothermal speed of sound, defined by:
+- $\Large v$ is the wind velocity
+- $\Large r$ is the radial distance from the center of the star
+- $\Large G$ is the gravitational constant
+- $\Large M$ is the mass of the star
+- $\Large a$ is the isothermal speed of sound, defined by:
 
 $$ \Large a = \sqrt{\frac{\mathcal{R} T}{\mu}} $$
 
+where:
+
+- $\Large \mathcal{R}$ is the universal gas constant
+- $\Large \mu$ is the mean atomic weight of the particles expressed in units of mass of a mole of hydrogen
+- $\Large T$ is the temperature of the star
+  
 The code uses values typical for the sun, but these parameters can be modified within the `stellar_physics.py` file to model different stars. The package can return results either normalized or raw using International System units (km and km/s).
 
 ---
