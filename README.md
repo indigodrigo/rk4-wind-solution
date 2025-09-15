@@ -66,9 +66,9 @@ rk4-wind-solution/
     └── stellar_physics.py 
 ```
 - **main.py**: The entry point for the program. It handles user input and orchestrates the calls to the other scripts.
-- **RK4_solver.py**: Contains the RK4 function, a fourth-order Runge-Kutta numerical solver used to integrate the ordinary differential equation.
-- **solar_wind_logic.py**: Contains the physical constants, the differential equation for the solar wind, and the logic for generating the six different solutions.
-- **plotting_and_output.py**: Handles all the output, including generating the plot and creating text files for each solution.
+- **rk4_solver.py**: Contains the RK4 function, a fourth-order Runge-Kutta numerical solver used to integrate the ordinary differential equation.
+- **stellar_physics.py**: Contains the physical constants, the differential equation for the solar wind, and the logic for generating the six different solutions.
+- **plot_output.py**: Handles all the output, including generating the plot and creating text files for each solution.
 
 ---
 
