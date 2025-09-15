@@ -18,5 +18,5 @@ if __name__ == "__main__":
     generate_text_files(calculated_solutions, Rc_val, a_val, is_normalized)
     
     # Plots the solutions
-
     plot_solutions(calculated_solutions, Rc_val, a_val, is_normalized)
+
