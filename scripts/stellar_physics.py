@@ -1,5 +1,5 @@
 from math import sqrt
-from rk4_solver import RK4
+from .rk4_solver import RK4
 
 def isothermal_wind_solutions():
     """
@@ -89,5 +89,6 @@ def isothermal_wind_solutions():
     print(f"Isothermal speed of sound (a): {a/conversion_factor:.2e} km/s")
     print(f"Critical Radius (Rc): {Rc/conversion_factor:.2e} km")
     print("-" * 20)
+
 
     return solutions, Rc, a
